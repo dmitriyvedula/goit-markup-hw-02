@@ -1,0 +1,41 @@
+:root
+
+/* ================= HEADER ================= */
+.menu-list {
+  list-style: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+}
+
+.menu-listable,
+.menu-list:focus {
+  /*color: var(--accent-color)*/
+}
+
+.contact-number {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+}
+
+.contact-number:hover,
+.contact-number:focus {
+  color: /*var(--accent-color)*/ ;
+}
+/* ================= /HEADER ================= */
+
+/*.category-list {
+    list-style: none;
+    column-count: 3;
+    .category-list li {
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      <ul class="category-list clearfix">
+        <li class="category-item">1</li>
+        <li class="category-item">2</li>
+        <li class="category-item">3</li>
+        </ul>*/
