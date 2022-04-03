@@ -1,41 +1,182 @@
-:root
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
 
-/* ================= HEADER ================= */
-.menu-list {
+.list {
   list-style: none;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.1em;
+  color: var(--main-text-color);
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+}
+.link {
+  text-decoration: none;
+  color: var (--main-text-color);
+  font-style: normal;
+}
+.address {
+  font-style: normal;
+}
+/*=======header=======*/
+/*=====logo======*/
+.logo-link {
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--main-text-color);
+}
+.logo-link:hover,
+.logo-link:focus {
+  text-decoration: underline;
+  color: var(--accent-color);
+  cursor: pointer;
 }
 
-.menu-listable,
-.menu-list:focus {
-  /*color: var(--accent-color)*/
+.logo-accent {
+  color: var(--accent-color);
+}
+.logo-regular:hover {
+  color: var(--main-text-color);
 }
 
-.contact-number {
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.1em;
+/*======/logo=======*/
+.header {
+  color: var(--main-text-color);
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  cursor: pointer;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.contacts {
+  color: var(--secondary-text-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: underline;
+  color: var(--accent-color);
 }
 
-.contact-number:hover,
-.contact-number:focus {
-  color: /*var(--accent-color)*/ ;
+/*=======/header======*/
+/*========main=========*/
+.modal-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
-/* ================= /HEADER ================= */
+.button {
+  display: inline-block;
+  text-align: center;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.title:hover,
+.title:focus {
+  text-decoration: underline;
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.subtitle {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 
-/*.category-list {
-    list-style: none;
-    column-count: 3;
-    .category-list li {
-        page-break-inside: avoid;
-        break-inside: avoid;
-      }
-      <ul class="category-list clearfix">
-        <li class="category-item">1</li>
-        <li class="category-item">2</li>
-        <li class="category-item">3</li>
-        </ul>*/
+  color: var(--secondary-text-color);
+}
+.subtitle:hover,
+.subtitle:focus {
+  text-decoration: underline;
+  color: var(--accent-color);
+  cursor: pointer;
+}
+/*======/main=====*/
+/*=======footer======*/
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+  background: #2f303a;
+}
+.address {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+.address:hover,
+.address:focus {
+  text-decoration: underline;
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.mail {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+.mail:hover,
+.mail:focus {
+  text-decoration: underline;
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.tel {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.tel:hover,
+.tel:focus {
+  text-decoration: underline;
+  color: var(--accent-color);
+  cursor: pointer;
+}
+/*=======/footer======*/
