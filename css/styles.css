@@ -4,6 +4,7 @@
   --main-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
+  --primary-color: #e5e5e5;
 }
 
 .list {
@@ -12,7 +13,10 @@
 }
 body {
   font-family: var(--main-font);
+  font-family: var(--secondary-font);
   color: var(--main-text-color);
+  background-color: var(--primary-color);
+}
 }
 .link {
   text-decoration: none;
@@ -36,7 +40,6 @@ body {
 .logo-link:focus {
   text-decoration: underline;
   color: var(--accent-color);
-  cursor: pointer;
 }
 
 .logo-accent {
@@ -56,7 +59,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  cursor: pointer;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -89,6 +91,10 @@ body {
 .button {
   display: inline-block;
   text-align: center;
+  color: #f5f4fa;
+  /*background-color: #f5f4fa;*/
+  border-radius: 4px;
+  cursor: pointer;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -111,7 +117,6 @@ body {
 }
 .subtitle {
   font-family: var(--main-font);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -137,7 +142,6 @@ body {
 .address {
   font-family: var(--main-font);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -167,7 +171,6 @@ body {
 }
 .tel {
   font-family: var(--main-font);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
